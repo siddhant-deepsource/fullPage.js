@@ -1987,6 +1987,8 @@
         function continuousVerticalFixSectionOrder (v) {
             // If continuousVertical is in effect (and autoScrolling would also be in effect then),
             // finish moving the elements around so the direct navigation will function more simply
+            
+            let a = 10;
             if (v.wrapAroundElements == null) {
                 return;
             }
